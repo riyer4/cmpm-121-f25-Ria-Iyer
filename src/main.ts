@@ -23,4 +23,6 @@ button.addEventListener("click", () => {
   // This looks like to a good place to add some logic!
   counter++;
   console.log("I have these thingies:", button, counterElement, counter);
+
+  counterElement.textContent = counter.toString();
 });
